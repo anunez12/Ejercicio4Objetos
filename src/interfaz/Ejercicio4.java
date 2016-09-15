@@ -117,6 +117,11 @@ public class Ejercicio4 extends javax.swing.JFrame {
                 cmdSolicitudActionPerformed(evt);
             }
         });
+        cmdSolicitud.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                cmdSolicitudKeyTyped(evt);
+            }
+        });
         jPanel2.add(cmdSolicitud, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 30, -1, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 610, 70));
@@ -125,6 +130,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
         jLabel3.setText("Contraseña");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, -1));
 
+        txtSicuc.setEditable(false);
         txtSicuc.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtSicucKeyTyped(evt);
@@ -263,6 +269,10 @@ public class Ejercicio4 extends javax.swing.JFrame {
           evt.consume();
         }
     }//GEN-LAST:event_txtSicucKeyTyped
+
+    private void cmdSolicitudKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cmdSolicitudKeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cmdSolicitudKeyTyped
 
     /**
      * @param args the command line arguments
