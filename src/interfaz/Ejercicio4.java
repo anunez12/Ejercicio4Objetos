@@ -131,7 +131,6 @@ public class Ejercicio4 extends javax.swing.JFrame {
         jLabel3.setText("Contraseña");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, -1));
 
-        txtSicuc.setEditable(false);
         txtSicuc.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtSicucKeyTyped(evt);
@@ -177,10 +176,10 @@ public class Ejercicio4 extends javax.swing.JFrame {
             cmdContraseña.setEnabled(true);
             cmdBorrar.setEnabled(true); 
             
-            
-            
+               
+                                               
         
-            
+                  
             
         }
     }//GEN-LAST:event_cmdGuardarActionPerformed
