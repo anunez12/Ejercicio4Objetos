@@ -6,7 +6,7 @@
 
 package interfaz;
 
-import clases.PasswordInTheSicuc;
+import clase.PasswordInTheSicuc;
 import javax.swing.JOptionPane;
 
 /**
@@ -202,7 +202,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
        
     }
     }//GEN-LAST:event_cmdSeguridadActionPerformed
-
+  
     private void cmdBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdBorrarActionPerformed
         txtSicuc.setText(""); 
         txtSicuc.requestFocusInWindow(); 
@@ -222,7 +222,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
         
         p=new PasswordInTheSicuc(longitud,contraseña);
         
-        f=p.MostrarContraseña();
+        f=p.Contraseña();
         JOptionPane.showMessageDialog(this,"La contraseña ingresada al sicuc es: " +aux);
         
     }//GEN-LAST:event_cmdContraseñaActionPerformed
